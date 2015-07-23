@@ -1,0 +1,32 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'material-design-lite',
+1 verbose cli   '--save' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 warn package.json swfobject-npm@2.3.0-1 No repository field.
+5 warn package.json gulp-marked@1.0.0 No repository field.
+6 warn install Refusing to install material-design-lite as a dependency of itself
+7 silly install resolved []
+8 verbose stack Error: The package phantomjs does not satisfy its siblings' peerDependencies requirements!
+8 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+8 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:264:7
+8 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:138:5
+8 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+8 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+8 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+8 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+8 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+8 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+8 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+9 verbose cwd /Users/alanwright/portfolio
+10 error Darwin 14.4.0
+11 error argv "node" "/usr/local/bin/npm" "install" "material-design-lite" "--save"
+12 error node v0.12.2
+13 error npm  v2.7.4
+14 error code EPEERINVALID
+15 error peerinvalid The package phantomjs does not satisfy its siblings' peerDependencies requirements!
+15 error peerinvalid Peer mocha-phantomjs@3.6.0 wants phantomjs@1.9.1 - 1.9.7-15
+16 verbose exit [ 1, true ]

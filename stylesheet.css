@@ -1,0 +1,117 @@
+html {
+  background-color: black;
+}
+/*.layout-transparent {
+  background: url('../assets/demos/transparent.jpg') center / cover;
+}*/
+.layout-transparent .mdl-layout__header,
+.layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
+  position: fixed;
+}
+.mdl-layout__drawer.is-visible {
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+  position: fixed;
+}
+
+.fa {
+  color: white;
+}
+
+.fa:hover {
+  color: linen;
+}
+
+.mdl-layout__content {
+  -ms-flex: 0 1 auto;
+  display: inline-block;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  z-index: 0;
+}
+
+.container {
+  position: relative;
+  height: 700px;
+  text-align: center;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+}
+
+h2, h3, h4 {
+  margin-top: 0px;
+}
+
+.mainHead{
+  padding-top: 200px;
+
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#home {
+  
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+#projects {
+  background-color: whitesmoke;
+}
+
+#about{
+  /*background-image: url(background-images/bg3.jpg);*/
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+#skills{
+  background-color: whitesmoke;
+}
+
+#contact{
+  /*background-image: url(background-images/bg4.jpg);*/
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+p {
+  font-size: 20px;
+}
+
+.box {
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+  vertical-align: top;
+  /*border-radius: 100%;*/
+  padding: 1em;
+}
+
+#skills {
+  min-height: 800px;
+}
+
+#skills i {
+  height: 100px;
+  width: 100px;
+  line-height: 100px;
+  color: white;
+  background-color: #93C0CC;
+  border-radius: 100%;
+}
