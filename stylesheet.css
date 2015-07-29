@@ -1,5 +1,5 @@
 html {
-  background-color: black;
+  /*background-color: black;*/
 }
 
 .layout-transparent .mdl-layout__header,
@@ -166,3 +166,14 @@ p {
   color: grey;
 }
 
+.text {
+  float: right;
+  width: 25em;
+  /*text-align: center;*/
+}
+
+.text2 {
+  float: left;
+  width: 25em;
+  /*text-align: center;*/
+}
