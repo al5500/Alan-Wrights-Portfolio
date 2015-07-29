@@ -169,11 +169,9 @@ p {
 .text {
   float: right;
   width: 25em;
-  /*text-align: center;*/
 }
 
 .text2 {
   float: left;
   width: 25em;
-  /*text-align: center;*/
 }
